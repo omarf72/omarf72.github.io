@@ -1,24 +1,82 @@
 <html> 
     <head>
         <style> 
-            h1 {padding-top: 300;}
+            h1 {padding-top: 10;
+                text-align: center;
+            }
+           
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .background{
+                background:burlywood
+            }
+            .line{
+                border-bottom: 5px solid lightgray;
+                margin-top: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            p {
+            text-align: center; 
+            margin: 0 auto; 
+            width: 60%; 
+        }
+        nav {
+            display: flex;
+            justify-content: center; 
+            gap: 20px; 
+            padding: 10px;
+            background-color: #f0f0f0; 
+            border-bottom: 2px solid #ccc; 
+        }
+        nav a {
+            text-decoration: none; 
+            color: #333;
+            padding: 10px;
+            border-radius: 5px; 
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #e0e0e0; 
+        }
+        
         </style>
         <title>
-            About
+            About Section
         </title>
     </head>
-    <body>
+    <body class="background">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="cat.html">Cat</a>
+        </nav>
+        <img src="./career headshot.jpeg" class="center"/>
         <h1>
+            <div class="line"></div>
             About Me 
+            
         </h1>
         <p>
-            Hi my name is Omar Fofana I'm second year computer science major at quinnipiac university. My whole life I've been a pretty big gamer. I mainly played
+            
+            Hi my name is Omar Fofana I'm second year computer science major at quinnipiac university. My whole life I've been a pretty big gamer I mainly played
             on console. Some of my favorite games all of time are black ops 2, skate 3 and dying light. I took my first computer
             science class in high school my junior year as a elective. At first I hated it and said to myself I would never
             take other class like that. But in the end I ended up loving it and took a college level course the next year and then 
-            decided to come to quinnipiac as a computer science major. 
-
+            decided to come to quinnipiac as a computer science major. Since then I have a took multiude of computer science classes
+            and competed in two hackathons. I came in third place in my first hackathon and won the most original idea in my second one.
+            <br>  <br> <a href="cat.html"> Click here if you like cats   </a> 
+       
         </p>
+        
+      
+      
         
     </body>
 </html>
